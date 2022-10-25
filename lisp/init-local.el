@@ -30,5 +30,6 @@
 ;; (require 'init-tab)
 ;; (require 'init-sort-tab)
 ;; (require 'init-jest-coverage)
+(require 'init-wsl)
 (provide 'init-local)
 ;;; init-local.el ends here
