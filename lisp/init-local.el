@@ -27,5 +27,6 @@
 (require 'init-reset-keybinding)
 (require 'init-vue)
 (require 'init-wsl)
+(require 'init-eglot)
 (provide 'init-local)
 ;;; init-local.el ends here
