@@ -28,5 +28,6 @@
 (require 'init-vue)
 (require 'init-wsl)
 (require 'init-eglot)
+(require 'init-elfeed)
 (provide 'init-local)
 ;;; init-local.el ends here
