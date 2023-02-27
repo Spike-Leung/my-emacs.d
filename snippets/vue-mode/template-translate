@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: translate
+# name: t
 # key: t
 # --
-t("editor$0")
+$t('$0')

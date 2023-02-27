@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tb
+# key: tb
+# --
+{{$t('$0')}}
