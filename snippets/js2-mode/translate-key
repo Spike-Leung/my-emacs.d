@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: translate-key
+# key: t
+# --
+$1$0: '$1',
