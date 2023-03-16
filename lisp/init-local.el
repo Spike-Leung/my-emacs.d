@@ -22,7 +22,6 @@
 (require 'init-typescript)
 (require 'init-js)
 ;; (require 'init-proxy)
-(require 'init-english-helper)
 (require 'init-company)
 (require 'init-reset-keybinding)
 (require 'init-vue)
@@ -32,5 +31,6 @@
 (require 'init-projectile)
 (require 'init-deno-bridge)
 (require 'init-translate)
+
 (provide 'init-local)
 ;;; init-local.el ends here
