@@ -16,8 +16,16 @@
   (interactive)
   (progn
     (write-region (mark) (point) "~/copy.txt" nil nil nil nil)
-    (shell-command "cat ~/copy.txt | clip.exe")
-    ))
+    (shell-command "cat ~/copy.txt | clip.exe")))
 
+(defun my-kill-ring-save-function (&rest args)
+  "A function to run after `whole-line-or-region-kill-ring-save`."
+  (when (region-active-p)
+    (let ((cmd (format "echo %s | clip.exe" (shell-quote-argument (buffer-substring-no-properties (region-beginning) (region-end))))))
+      (shell-command-to-string cmd)
+      (message "Copied to clipboard."))))
+
+
+(advice-add 'whole-line-or-region-kill-ring-save :after #'my-kill-ring-save-function)
 (provide 'init-wsl)
 ;;; init-wsl.el ends here
