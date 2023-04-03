@@ -31,5 +31,6 @@
 (require 'init-projectile)
 ;; (require 'init-deno-bridge)
 ;; (require 'init-translate)
+(require 'init-corfu-terminal)
 (provide 'init-local)
 ;;; init-local.el ends here
