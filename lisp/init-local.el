@@ -29,6 +29,7 @@
 (require 'init-eglot)
 (require 'init-elfeed)
 (require 'init-projectile)
+(require 'init-gitmoji)
 ;; (require 'init-deno-bridge)
 ;; (require 'init-translate)
 (require 'init-corfu-terminal)
