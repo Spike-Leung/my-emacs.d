@@ -5,6 +5,7 @@
 (add-to-list 'load-path (expand-file-name "lisp/my-lisp" user-emacs-directory))
 
 (require 'init-auto-save)
+(require 'init-codeium)
 (require 'init-company)
 (require 'init-corfu-terminal)
 (require 'init-easy-hugo)
