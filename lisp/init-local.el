@@ -6,6 +6,7 @@
 
 (require 'init-auto-save)
 (require 'init-breadcrumb)
+(require 'init-citre)
 (require 'init-company)
 (require 'init-corfu-terminal)
 (require 'init-easy-hugo)
