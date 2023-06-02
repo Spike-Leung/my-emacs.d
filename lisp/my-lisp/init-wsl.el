@@ -1,5 +1,4 @@
-;;; Package --- Summary
-;; init-wsl
+;;; init-wsl.el --- config for wsl
 ;;; Commentary:
 ;;; Code:
 ;;; https://adam.kruszewski.name/2017-09-16-emacs-in-wsl-and-opening-links.html
