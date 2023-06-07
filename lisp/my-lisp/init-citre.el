@@ -54,7 +54,10 @@
 
 ;; see: https://github.com/AmaiKinono/clue
 (require 'clue)
-(add-hook 'find-file-hook #'clue-auto-enable-clue-mode)
+(with-eval-after-load 'clue
+  (add-hook 'find-file-hook #'clue-auto-enable-clue-mode)
+  (global-set-key (kbd "C-x c c") 'clue-copy)
+  (global-set-key (kbd "C-x c y") 'clue-paste))
 
 (provide 'init-citre)
 ;;; init-citre.el ends here
