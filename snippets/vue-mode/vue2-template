@@ -1,11 +1,11 @@
 # -*- mode: snippet -*-
-# name: temp2
-# key: temp2
+# name: tempate for vue2
+# key: tv2
 # --
 <template>
 
 </template>
-<style lang="less" scoped>
+<style scoped lang="less">
 
 </style>
 <script>
