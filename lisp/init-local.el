@@ -13,6 +13,7 @@
 (require 'init-elfeed)
 (require 'init-face)
 (require 'init-gitmoji)
+(require 'init-mermaid)
 (require 'init-modus-theme)
 (require 'init-my-eglot)
 (require 'init-my-markdown)
