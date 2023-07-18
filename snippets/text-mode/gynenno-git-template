@@ -2,4 +2,4 @@
 # name: gynenno-git-template
 # key: gy
 # --
-${1:$$(yas-choose-value '("feat" "refactor" "style" "docs" "fix" "chore" "perf"))}(): $0[/]
+${1:$$(yas-choose-value '("feat" "refactor" "style" "docs" "fix" "chore" "perf"))}($2): $0[/]
