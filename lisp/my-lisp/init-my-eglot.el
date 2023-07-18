@@ -10,6 +10,8 @@
 (add-to-list 'auto-mode-alist '("\\.vue\\'" . vue-mode))
 (add-hook 'vue-mode-hook 'eglot-ensure)
 
+;;; ni -g typescript
+;;; ni -g @volar/vue-language-server
 (with-eval-after-load 'eglot
   (add-to-list 'eglot-server-programs '(vue-mode . (eglot-volar "vue-language-server" "--stdio")))
   (defclass eglot-volar (eglot-lsp-server) () :documentation "volar")
