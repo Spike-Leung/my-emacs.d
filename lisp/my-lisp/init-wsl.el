@@ -26,7 +26,5 @@
 
 
 (advice-add 'whole-line-or-region-kill-ring-save :after #'my-kill-ring-save-function)
-
-(diff-hl-margin-mode 1)
 (provide 'init-wsl)
 ;;; init-wsl.el ends here
