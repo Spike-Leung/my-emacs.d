@@ -21,6 +21,7 @@
 (require 'init-org-roam)
 (require 'init-org-roam-ui)
 (require 'init-projectile)
+(require 'init-rime)
 (require 'init-typescript)
 (require 'init-wsl)
 (require 'init-yasnippet)
