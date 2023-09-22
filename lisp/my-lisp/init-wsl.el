@@ -19,12 +19,13 @@
 
 (defun my-kill-ring-save-function (&rest args)
   "A function to run after `whole-line-or-region-kill-ring-save`."
-  (when (region-active-p)
-    (let ((cmd (format "echo %s | clip.exe" (shell-quote-argument (buffer-substring-no-properties (region-beginning) (region-end))))))
-      (shell-command-to-string cmd)
-      (message "Copied to clipboard."))))
-
+  (let ((cmd (format "echo %s | clip.exe" (shell-quote-argument (string-trim-right (substring-no-properties (car kill-ring)))))))
+    (message "%s" cmd)
+    (shell-command-to-string cmd)
+    (message "Copied to clipboard.")))
 
 (advice-add 'whole-line-or-region-kill-ring-save :after #'my-kill-ring-save-function)
+(advice-add 'magit-copy-section-value :after #'my-kill-ring-save-function)
+
 (provide 'init-wsl)
 ;;; init-wsl.el ends here
