@@ -8,7 +8,6 @@
 (require 'init-breadcrumb)
 (require 'init-citre)
 (require 'init-company)
-(require 'init-corfu-terminal)
 (require 'init-denote)
 (require 'init-easy-hugo)
 (require 'init-elfeed)
