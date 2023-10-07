@@ -17,6 +17,7 @@
 (require 'init-modus-theme)
 (require 'init-my-eglot)
 (require 'init-my-markdown)
+(require 'init-my-misc)
 (require 'init-my-org)
 (require 'init-modus-theme)
 ;; (require 'init-org-roam)
@@ -26,5 +27,6 @@
 (require 'init-typescript)
 (require 'init-wsl)
 (require 'init-yasnippet)
+
 (provide 'init-local)
 ;;; init-local.el ends here
