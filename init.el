@@ -104,7 +104,6 @@
 
 (require 'init-folding)
 
-(require 'init-ledger)
 ;; Extra packages which don't require any configuration
 
 (require-package 'sudo-edit)
@@ -124,8 +123,6 @@
 
 (when (fboundp 'global-eldoc-mode)
   (add-hook 'after-init-hook 'global-eldoc-mode))
-
-(require 'init-direnv)
 
 (when (and (require 'treesit nil t)
            (fboundp 'treesit-available-p)
