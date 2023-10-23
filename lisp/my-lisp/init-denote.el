@@ -4,7 +4,7 @@
 (maybe-require-package 'denote)
 
 ;; Remember to check the doc strings of those variables.
-(setq denote-directory (expand-file-name "~/notes/"))
+(setq denote-directory (expand-file-name "~/notes"))
 (setq denote-known-keywords '("emacs" "frontend"))
 (setq denote-infer-keywords t)
 (setq denote-sort-keywords t)
