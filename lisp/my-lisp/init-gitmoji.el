@@ -6,6 +6,7 @@
 
 (with-eval-after-load 'gitmoji
   (setq gitmoji-selection-backend (list 'consult))
+  (setq gitmoji--display-utf8-emoji t)
   (gitmoji-commit-mode))
 
 (provide 'init-gitmoji)
