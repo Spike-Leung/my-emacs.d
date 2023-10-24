@@ -1,7 +1,9 @@
 ;;; init-my-denote.el --- denote relavive config
 ;;; Commentary:
 ;;; Code:
-(maybe-require-package 'denote)
+(push (expand-file-name "lisp/my-lisp/denote" user-emacs-directory) load-path)
+
+(require 'denote)
 
 ;; Remember to check the doc strings of those variables.
 (setq denote-directory (expand-file-name "~/notes"))
