@@ -3,12 +3,7 @@
 ;;; Code:
 (require-package 'modus-themes)
 
-(setq modus-themes-headings
-      '((1 . (ultrabold 1.1)))
-
-      ;; modus-themes-org-blocks 'gray-background
-
-      modus-themes-common-palette-overrides
+(setq modus-themes-common-palette-overrides
       '(
         ;; Make line numbers less intense, but use a shade of red for the current line number
         (fg-line-number-inactive "gray50")
