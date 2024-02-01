@@ -2,6 +2,10 @@
 # name: tempate for vue3
 # key: tv3
 # --
+<script setup>
+
+</script>
+
 <template>
 
 </template>
@@ -9,7 +13,3 @@
 <style scoped lang="less">
 
 </style>
-
-<script setup>
-
-</script>
