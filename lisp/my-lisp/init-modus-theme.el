@@ -33,7 +33,7 @@
         (bg-diff-context    unspecified)))
 
 ;; Load the theme of your choice:
-(load-theme 'modus-vivendi-tinted t t)
+(load-theme 'modus-vivendi-tinted :no-confirm)
 (enable-theme 'modus-vivendi-tinted)
 
 (provide 'init-modus-theme)
