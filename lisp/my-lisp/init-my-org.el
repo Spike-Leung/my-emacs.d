@@ -155,7 +155,7 @@ text and copying to the killring."
 
 
 ;;; Agenda files
-(setq org-agenda-files (list "~/work/work.org"))
+(setq org-agenda-files (list "~/spike-docs/org/work.org"))
 
 
 ;;; Capture templates
