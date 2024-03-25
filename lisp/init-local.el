@@ -18,6 +18,7 @@
 (require 'init-projectile)
 (require 'init-wsl)
 (require 'init-yasnippet)
+(require 'init-magit)
 
 (provide 'init-local)
 ;;; init-local.el ends here
