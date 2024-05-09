@@ -16,6 +16,7 @@
 (require 'init-my-org)
 (require 'init-modus-theme)
 (require 'init-projectile)
+(require 'init-typescript)
 (require 'init-wsl)
 (require 'init-yasnippet)
 (require 'init-magit)
