@@ -163,7 +163,7 @@ text and copying to the killring."
 
 (setq org-capture-templates
       '(
-        ("d" "Daily Tasks" plain (file+olp+datetree "~/daily.org") (file "~/org-template/daily.txt") :jump-to-captured t :immediate-finish t)))
+        ("d" "Daily Tasks" plain (file+olp+datetree "~/daily.org") (file "~/spike-docs/org/template/daily.txt") :jump-to-captured t :immediate-finish t)))
 
 (setq
  org-latex-listings 'minted
