@@ -20,6 +20,7 @@
 (require 'init-wsl)
 (require 'init-yasnippet)
 (require 'init-magit)
+(require 'init-codeium)
 
 (provide 'init-local)
 ;;; init-local.el ends here
