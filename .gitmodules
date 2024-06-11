@@ -25,3 +25,6 @@
 [submodule "lisp/my-lisp/denote"]
 	path = lisp/my-lisp/denote
 	url = git@github.com:protesilaos/denote.git
+[submodule "lisp/my-lisp/codeium"]
+	path = lisp/my-lisp/codeium
+	url = git@github.com:Exafunction/codeium.el.git
