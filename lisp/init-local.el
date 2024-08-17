@@ -14,7 +14,7 @@
 (require 'init-my-markdown)
 (require 'init-my-misc)
 (require 'init-my-org)
-(require 'init-modus-theme)
+;; (require 'init-modus-theme)
 (require 'init-projectile)
 (require 'init-typescript)
 (require 'init-wsl)
