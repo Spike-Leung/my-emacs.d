@@ -9,6 +9,7 @@
 (require 'init-company)
 (require 'init-denote)
 (require 'init-easy-hugo)
+(require 'init-elfeed)
 (require 'init-gitmoji)
 (require 'init-vue-mode)
 (require 'init-my-markdown)
