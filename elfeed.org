@@ -53,6 +53,9 @@
 *** [[https://z.arlmy.me/atom.xml][素生]]
 
 *** [[https://www.lxchapu.com/rss.xml][柃夏chapu‘s blog]]
+
+*** [[https://purplesyringa.moe/blog/feed.rss][purplesyringa]]
+
 ** news
 
 *** [[https://www.daemonology.net/hn-daily/index.rss][Hacker News Daily]]
