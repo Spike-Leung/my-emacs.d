@@ -23,6 +23,7 @@
 (require 'init-magit)
 (require 'init-codeium)
 (require 'init-translate)
+(require 'init-org-publish)
 
 (provide 'init-local)
 ;;; init-local.el ends here
