@@ -40,6 +40,8 @@
 
 ** blog                                                                          :blog:
 
+*** [[https://taxodium.ink/rss.xml][taxodium]]
+
 *** [[https://diygod.cc/feed][DIYgod]]
 
 *** [[https://www.pseudoyu.com/zh/index.xml][Pseudoyu]]
