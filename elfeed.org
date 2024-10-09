@@ -46,7 +46,7 @@
 
 *** [[https://www.pseudoyu.com/zh/index.xml][Pseudoyu]]
 
-*** [[https://innei.in/feed][<![CDATA[ 静かな森 ]​]>]]
+*** [[https://innei.in/feed][静かな森]]
 
 *** [[https://atlas.xlog.app/feed][Atlas's 周记]]
 
@@ -57,6 +57,10 @@
 *** [[https://www.lxchapu.com/rss.xml][柃夏chapu‘s blog]]
 
 *** [[https://purplesyringa.moe/blog/feed.rss][purplesyringa]]
+
+*** [[https://www.da.vidbuchanan.co.uk/blog/rss.xml][David Buchanan's Blog]]
+
+*** [[https://kristoff.it/index.xml][Loris Cro's Personal Website]]
 
 ** news
 
