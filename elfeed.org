@@ -10,8 +10,6 @@
 
 *** [[https://weekly.howie6879.com/rss/rss.xml][老胡的周刊]]
 
-*** [[https://wiki.eryajf.net/rss.xml][二丫讲梵]]
-
 *** [[https://zishu.me/index.xml][奇趣周刊]]
 
 *** [[https://quail.ink/ameow/feed/atom][猫鱼周刊]]
@@ -83,6 +81,9 @@
 *** [[https://xenodium.com/rss.xml][Alvaro Ramirez's notes]]
 
 *** [[https://www.yoghurtlee.com/index.xml][园子里的日光]]
+
+*** [[https://technicalwriting.dev/rss.xml][technicalwriting.dev]]
+
 ** news
 
 *** [[https://www.daemonology.net/hn-daily/index.rss][Hacker News Daily]]
@@ -124,3 +125,4 @@
 ** [[https://randomascii.wordpress.com/][Randdom ASCII]]
 
 ** [[https://smallyu.net][smallyu 的博客]]
+** [[https://fika.bar/blogs/paoramen][Pao Ramen]]
