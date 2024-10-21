@@ -11,6 +11,7 @@
 (require 'init-easy-hugo)
 (require 'init-elfeed)
 (require 'init-gitmoji)
+(require 'init-helpful)
 (require 'init-vue-mode)
 (require 'init-my-editing-utils)
 (require 'init-my-markdown)
