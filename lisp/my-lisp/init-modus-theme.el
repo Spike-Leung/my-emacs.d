@@ -33,8 +33,8 @@
         (bg-diff-context    unspecified)))
 
 ;; Load the theme of your choice:
-(load-theme 'modus-vivendi-tinted :no-confirm)
-(enable-theme 'modus-vivendi-tinted)
+(load-theme 'modus-vivendi :no-confirm)
+(enable-theme 'modus-vivendi)
 
 (provide 'init-modus-theme)
 ;;; init-modus-theme.el ends here
