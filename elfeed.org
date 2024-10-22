@@ -70,7 +70,7 @@
 
 *** [[https://garden.bradwoods.io/rss.xml][Brad Woods Digital Garden]]
 
-*** [[https://expensive.toys/rss.xml][Artur Bień]]
+*** [[https://expensive.toys/rss.xml][Artur Bień]]                                                                  :emacs:
 
 *** [[https://anotherdayu.com/feed/][Another Dayu]]
 
@@ -83,6 +83,10 @@
 *** [[https://www.yoghurtlee.com/index.xml][园子里的日光]]
 
 *** [[https://technicalwriting.dev/rss.xml][technicalwriting.dev]]
+
+*** [[https://lutaonan.com/rss.xml][Randy's Blog]]
+
+*** [[https://kristofferbalintona.me/index.xml][Kristoffer Balintona]]                                                        :emacs:
 
 ** news
 
@@ -125,4 +129,5 @@
 ** [[https://randomascii.wordpress.com/][Randdom ASCII]]
 
 ** [[https://smallyu.net][smallyu 的博客]]
+
 ** [[https://fika.bar/blogs/paoramen][Pao Ramen]]
