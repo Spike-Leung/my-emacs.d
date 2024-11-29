@@ -24,5 +24,7 @@
         :key (spike-leung/get-deepseek-api-key) ;can be a function that returns the key
         :models '(deepseek-chat deepseek-coder)))
 
+(global-set-key (kbd "M-o g") 'gptel-menu)
+
 (provide 'init-gptel)
 ;;; init-gptel.el ends here
