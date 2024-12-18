@@ -125,6 +125,9 @@
 *** [[https://antfu.me/feed.xml][Anthony Fu]]
 
 *** [[https://bitfieldconsulting.com/posts?format=rss][Bitfield Consulting]]
+
+*** [[https://xuanwo.io/index.xml][Xuanwo's Blog]]
+
 ** news
 
 *** [[https://www.daemonology.net/hn-daily/index.rss][Hacker News Daily]]
