@@ -162,8 +162,19 @@ text and copying to the killring."
 ;;; Private
 
 (setq org-capture-templates
-      '(
-        ("d" "Daily Tasks" plain (file+olp+datetree "~/daily.org") (file "~/spike-docs/org/template/daily.txt") :jump-to-captured t :immediate-finish t)))
+      '(("d"
+         "Daily Tasks"
+         plain
+         (file+olp+datetree "~/daily.org")
+         (file "~/spike-docs/org/template/daily.txt")
+         :jump-to-captured t
+         :immediate-finish t)
+        ("x" "Reading List" item
+         (file+headline "~/notes/20241112T202642--reading-list__collection_read.org" "Refs")
+         "[[%:link][%:description]]\n%i\n\n"
+         :jump-to-captured t
+         :immediate-finish t)
+        ))
 
 (setq
  org-latex-listings 'minted
@@ -215,5 +226,13 @@ text and copying to the killring."
   (define-key org-mode-map (kbd "C-c m") 'org-menu))
 
 
+;; enable org-protocol
+(server-start)
+;; for wsl2
+(add-to-list 'load-path "/snap/emacs/current/usr/share/emacs/29.4/lisp/org/")
+(require 'org-protocol)
+
+
+
 (provide 'init-my-org)                  ;
 ;;; init-my-org.el ends here
