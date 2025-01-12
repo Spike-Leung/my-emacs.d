@@ -167,6 +167,9 @@ text and copying to the killring."
          plain
          (file+olp+datetree "~/daily.org")
          (file "~/spike-docs/org/template/daily.txt")
+        ("w" "Web site" entry
+         (file "")
+         "* %a :website:\n\n%U %?\n\n%:initial")
          :jump-to-captured t
          :immediate-finish t)
         ("x" "Reading List" item
@@ -230,7 +233,9 @@ text and copying to the killring."
 (server-start)
 ;; for wsl2
 (add-to-list 'load-path "/snap/emacs/current/usr/share/emacs/29.4/lisp/org/")
+(push (expand-file-name "lisp/my-lisp/org-protocol-capture-html" user-emacs-directory) load-path)
 (require 'org-protocol)
+(require 'org-protocol-capture-html)
 
 
 
