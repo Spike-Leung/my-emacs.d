@@ -45,7 +45,7 @@
           'grep)))
 
   (defvar my-denote-silo-directories
-    `("~/notes/.hidden" "~/notes/.privacy")
+    `("~/notes/.hidden" "~/notes/.privacy" "~/notes/gptel")
     "List of file paths pointing to my Denote silos.
 This is a list of strings.")
 
